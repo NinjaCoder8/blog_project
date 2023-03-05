@@ -1,0 +1,53 @@
+.blog-show{
+    text-align: center;
+}
+
+
+
+img {
+    width: 80%;
+    aspect-ratio: 16/9;
+    min-height: 300px;
+    max-height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    border: 3px solid var(--secondary-color);
+
+}
+
+.blog-meta{
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meta-data{
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+    text-align: left;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.btn-group{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.delete-btn{
+    float: right;
+}

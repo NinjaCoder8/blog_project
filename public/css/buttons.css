@@ -1,0 +1,41 @@
+.btn-primary, .btn-secondary, .btn-danger {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    outline: none;
+    border: none;
+
+}
+.btn-primary{
+    background: var(--primary-color);
+    color: white;
+}
+
+.btn-primary:hover{
+
+    background-color: var( --darken-primary-color);
+}
+
+.btn-secondary{
+    color: black;
+
+    font-weight: 700;
+}
+
+.btn-secondary:hover{
+
+    background-color: rgb(230, 226, 226);
+}
+
+.btn-danger{
+    background: rgb(255, 0, 0);
+    color: white;
+}    
+
+.btn-danger:hover{
+    background: rgb(240, 0, 0);
+}
